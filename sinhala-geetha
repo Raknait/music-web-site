@@ -1,0 +1,156 @@
+<html>
+<head>
+<style>
+body { background-image: url("images.jpg");
+      background-color: #d0e4fe;
+        
+}
+h1 {color: black;
+   text-align: center;
+  }
+p { color: white;
+    background-color: blue;
+    border: 1px solid black;
+    outline-style:
+    font-family: "times new roman";
+    font-size: 20px;
+}   
+img { border: 0.5px solid black;
+      outline-style:solid;
+      outline-color:black;
+mark { background-color: yellow;
+       color: black;
+}
+video { align: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+</style>
+
+<script>
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = h+":"+m+":"+s;
+    var t = setTimeout(function(){startTime()},500);
+}
+
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+<img src="MB.png"><br><br> 
+
+
+           
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<a href="http://www.facebook.com"><img src="facebook1.jpg" align="right" width="30" hight="30" hspace="30"><a/>
+<a href="http://www.twitter.com"><img src="twitter.png" align="right" width="30" hight="30"></a>
+<a href="http://www.linkedin.com"><img src="linkedin.png" align="right" width="30" hight="30" hspace="30"></a>
+<a href="http://www.google.com"><img src="google+.jpg" align="right" width="30" hihgt="30" hspace="10"></a>
+
+<h1 style="text-align:center">Sinhala Geetha Ekathuwa</h1>
+
+<p>Chamara Weerasinghe</p>
+<img src="chamara.jpg" alt="chamara face" width="150" hight="320"><br><br>
+<p2><strong><mark>New Release Vedio </mark>(Kaurunda Kauluwa Wahuwe)</strong></p2><br>
+<video width="400" height="300" controls>
+  <source src="movie1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  
+  </video controls><br>
+<p1 style="font-size:16; text-align:left"><strong>Sudu None Album</strong></p1>
+<ul style="text-align:left;font-size:16;color:green;"><strong>
+<li><a href="mathakayanobe.html" style="text-decoration:none;"><strong>Mathakayan obe sithe thabagena</strong></a></li>
+<li><a href="sundararathriyak.html" style="text-decoration:none">Sundara Raththriyak</a></li>
+<li><a href="lengathukakamanethaga.html" style="text-decoration:none">Lengathukama nethaga thiya</a></li>
+<li>Pera sansare pathumaldo oba</li>
+<li>Patha dundara mangalleta ennada ruhunu kumarien</li></strong>
+</ul>
+<p2><strong>Listen to all songs</strong></p2>
+<audio controls>
+<source src="chamara.mp3" type="audio/mp3">
+<source src="chamara.mp3" type="audio/mpeg">
+</audio>    <img src="download1.png"><br>
+<p>Athma Liyanage</p>
+<img src="athma.jpg">
+<ul>
+<li> Athma liyanage Nonstop</li>
+</ul>
+<audio controls>
+<source src="athmaliyanage.mp3" type="audio/mp3">
+<source src="athmaliyanage.mp3" type="audio/mpeg">
+</audio> 
+
+<img src="download1.png">
+<p> Theekshana Anurada</p>
+<img src="theekshana.jpg"><br>
+<ul style="text-align:left; font-size:16; color:green;"><strong>
+<li>Ayeth hadanna kadulak unanna</li>
+<li>Oba tharam</li>
+<li>Sepalika Teledrama song</li>
+<li>Sayam kirilli kohe gihindo</li>
+<li>Sada Renu galana Sada raka</li>
+</strong></ul>
+<audio controls>
+<source src="theekshana.mp3" type="audio/mp3">
+<source src="theekshana.mp3" type="audio/mpeg">
+</audio>   <img src="download1.png"><br><br>
+<a href="https://www.facebook.com/supertec.dinesh"> <img src="facebook.jpg"> </a><br><br>
+<img src=""><hr>
+<p3>Usefull Link</p3>
+<ul>
+<li style="font-size:20"><a href="http://www.google.com"style="text-decoration:none">Google</a></li>
+<li style="font-size:20"><a href="http://www.youtube.com" style="text-decoration:none">Youtube</a></li>
+</ul>
+
+
+
+
+
+
+
+
+</body>
+</html># music-web-site
